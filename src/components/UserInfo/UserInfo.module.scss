@@ -1,0 +1,24 @@
+@import '../../styles/vars.scss';
+
+.wrapper {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    margin-top: 11px;
+    padding: 20px 6px 19px 12px;
+    border: 1px solid $color-grey;
+    border-radius: 8px;
+}
+
+.submitButton {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}

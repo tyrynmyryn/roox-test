@@ -1,0 +1,30 @@
+@import '../../styles/vars.scss';
+
+.button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $color-white;
+    transition: .2s background;
+    cursor: pointer;
+    &:disabled {
+        background: $color-disabled-button;
+        cursor: auto;
+    }
+}
+
+.violet {
+    background: $color-violet;
+    &:hover {
+        background: rgba($color-violet, .75);
+    }
+}
+
+.green {
+    background: $color-green;
+    &:hover {
+        background: rgba($color-green, .75);
+    }
+}

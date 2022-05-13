@@ -1,0 +1,16 @@
+@import './fonts.scss';
+@import './vars.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: $color-black;
+}

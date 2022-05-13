@@ -1,0 +1,44 @@
+@import '../../styles/vars.scss'; 
+
+.user {
+    position: relative;
+    padding: 10px;
+    background: $color-grey;
+    border-radius: 8px;
+    &:not(:first-child) {
+        margin-top: 12px;
+    }
+}
+
+.userInfoItem {
+    display: flex;
+    align-items: center;
+    &:not(:first-child) {
+        margin-top: 7px;
+    }
+}
+
+.text {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.title {
+    margin-right: 7px;
+    color: $color-light-grey;
+}
+
+.value {
+    color: $color-black;
+}
+
+.link {
+    position: absolute;
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    color: $color-violet;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}

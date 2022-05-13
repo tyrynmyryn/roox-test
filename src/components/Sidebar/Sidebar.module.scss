@@ -1,0 +1,23 @@
+@import '../../styles/vars.scss';
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: $sidebar-size;
+    background: $color-dark-grey;
+    padding: 35px 20px;
+}
+
+.title {
+    font-size: 12px;
+    line-height: 14px;
+    color: $color-black;
+}
+
+.button {
+    margin-top: 15px;
+    &:first-child {
+        margin-top: 10px;
+    }
+}

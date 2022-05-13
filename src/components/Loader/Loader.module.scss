@@ -1,0 +1,20 @@
+@import '../../styles/vars.scss';
+
+.loader {
+    position: absolute;
+    top: calc(50% - $loader-size / 2);
+    right: calc(50% - $loader-size / 2);
+    width: $loader-size;
+    height: $loader-size;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: $color-grey;
+    border-right-color: $color-violet;
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(1turn);
+    }
+}
